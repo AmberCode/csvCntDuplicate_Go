@@ -14,7 +14,7 @@ import (
 const fileName = "test.csv"
 
 func main() {
-	log.Println("Start msisdn count")
+	log.Println("Start")
 
 	start := time.Now()
 
