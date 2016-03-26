@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-const fileName = "c:\\temp\\m2m_msisdns.csv"
+const fileName = "test.csv"
 
 func main() {
 	log.Println("Start msisdn count")
