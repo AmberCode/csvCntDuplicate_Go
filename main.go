@@ -59,7 +59,5 @@ func CountRepeats() map[string]int {
 		hashTable[result[1]]++
 	}
 
-	//test
-
 	return hashTable
 }
