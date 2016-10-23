@@ -18,7 +18,7 @@ func main() {
 
 	start := time.Now()
 
-	hashTable := CountDuplicates()
+	hashTable := countDuplicates()
 
 	for key, value := range hashTable {
 		fmt.Println("Msisdn:", key, "Count rpt:", value)
@@ -29,7 +29,7 @@ func main() {
 	log.Println("End")
 }
 
-func CountDuplicates() map[string]int {
+func countDuplicates() map[string]int {
 	hashTable := make(map[string]int)
 
 	f, err := os.Open(fileName)
